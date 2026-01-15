@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"   # Forge 47.x (MC 1.20.1)
+license="MIT"
+
+[[mods]]
+modId="vs_tfc_compat_fix"
+version="${version}"
+displayName="VS x TFC Compatibility Patch"
+authors="EndX"
+description='''
+Fixes Valkyrien Skies TFC compatibility mixin to match updated TFC method signatures.
+'''
+
+[[dependencies.vs_tfc_compat_fix]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.vs_tfc_compat_fix]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
